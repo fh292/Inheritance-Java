@@ -19,13 +19,13 @@ public class Director extends Employee {
     }
 
     //Add a method to allocate budget to his departments
-    public void allocateBudget(){
-
+    public void allocateBudget(double newBudget){
+       setBudget(newBudget);
     }
 
     //Override Method
     @Override
     public String toString() {
-        return super.toString() + ", Budget: " + budget ;
+        return super.toString() + ", Budget: " + getBudget();
     }
 }

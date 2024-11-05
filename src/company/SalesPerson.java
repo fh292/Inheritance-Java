@@ -18,14 +18,9 @@ public class SalesPerson extends Employee{
         this.salesTarget = salesTarget;
     }
 
-    //Add a method to update the sales target
-    public void updateSalesTarget(int salesTarget) {
-
-    }
-
     //Override Method
     @Override
     public String toString() {
-        return super.toString() + "Sales Target: " + salesTarget;
+        return super.toString() + ", Sales Target: " + salesTarget;
     }
 }
